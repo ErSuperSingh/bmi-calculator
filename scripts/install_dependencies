@@ -7,6 +7,6 @@ apt-get install -y nodejs
 apt-get install -y npm
 npm install -g pm2
 apt-get install -y jq
-if [ -d "/bmi" ]; then
-  rm -R /bmi
+if [ -d "/app" ]; then
+  rm -R /app
 fi
