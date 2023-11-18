@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /app
+npm install
+pm2 kill
+pm2 start "npm start" 
