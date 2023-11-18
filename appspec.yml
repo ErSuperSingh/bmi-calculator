@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /bmi
+    destination: /app
 permissions:
-  - object: /bmi
+  - object: /app
     pattern: "**"
     owner: root
     group: root
